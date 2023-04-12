@@ -4,6 +4,7 @@ function FindNumber(secretWord, numbers) {
         codeNumber = codeNumber + numbers.charAt(secretWord.charCodeAt(i))
 
     }
+    console.log(codeNumber)
     return codeNumber
 }
 
